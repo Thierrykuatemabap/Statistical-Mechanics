@@ -1,1 +1,28 @@
-**Statistical Mechanics** is a section of my work devoted to the mathematical and computational study of systems composed of many interacting particles or components. The associated code, available here, illustrates how numerical methods and simulations can be used to analyse macroscopic behaviours emerging from microscopic interactions. This section highlights key concepts such as probability distributions, equilibrium states, energy, entropy, phase transitions, and collective dynamics. The implemented code provides a practical way to explore theoretical models, visualize system evolution, and interpret physical phenomena through computational experiments. The main objective is to show how statistical mechanics connects microscopic laws with observable macroscopic properties, making it a powerful framework for modelling complex systems in physics and applied sciences.
+# Probability Distributions and Statistical Simulation
+
+A Python notebook exploring probability distributions, their parameters and sampling behaviour.
+
+The current repository contains [ProbabilityDistributions.ipynb](ProbabilityDistributions.ipynb). Its content focuses on probability and simulation foundations relevant to statistics and data science.
+
+## Topics
+
+- Discrete distributions: Bernoulli, binomial, geometric and Poisson.
+- Continuous distributions: uniform, exponential, normal and gamma.
+- Probability mass/density functions, cumulative distribution functions and parameter effects.
+- Theoretical quantities compared with simulated samples.
+- Illustrations of the law of large numbers and central limit theorem.
+
+## Run locally
+
+```bash
+python -m venv .venv
+source .venv/bin/activate
+python -m pip install -r requirements.txt
+jupyter notebook
+```
+
+The notebook uses NumPy, SciPy and Matplotlib. Data are generated within the notebook, so no external dataset is needed.
+
+## Scope
+
+An educational simulation notebook supporting mathematical and statistical training. A fresh-kernel verification record remains to be added.
